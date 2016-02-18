@@ -1,0 +1,35 @@
+{
+    "name": "apimatic/m2factor",
+    "type": "library",
+    "description": "2Factor.in provides extremely simple to use APIs for implementing 2Factor Authentication ( Phone verification ) with just 1 API Call.
+Best Part of 2Factor.in solution is its Fast, Reliable & Economical too.",
+    "keywords": ["2Factor","API","SDK"],
+    "homepage": "https://apimatic.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zeeshan @ APIMATIC",
+            "email": "zeeshan@apimatic.io",
+            "homepage": "https://github.com/apimatic",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/apimatic/unirest-php"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "apimatic/unirest-php": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "M2Factor\\": "src/"
+        }
+    }
+}
